@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>EMPLOYEE DATA ENTRY </title>
+</head>
+<body>
+	<h1  align="center">
+		<b><i><font color="blue">EMPLOYEE FORM</font> </i></b>
+	</h1>
+	<h4 align="center">we found a new way of life</h4>
+	
+	<img src="MTAlog.jpg " width="25%" height="40%" />
+
+	<form action="entryservlet">
+		<h4 align="center"><lable for "Date">Enter todays date :</lable><input type="date"
+		  id = "date" name = "date" placeholder="mm-dd-yyyy" pattern = "[1-12]{1} - [1-31]{1}-[1991-2029]{1}" required/>
+		  <small>format:mm-dd-yyyy</small> <br /> <br /> </h4>
+		
+		Employee ID: <input name="id_value" /> <br /> <br />
+		
+			First Name: <input name="full_name" /> <br /> <br />
+		Department Name: <input name="dept_text" /> <br /> <br />
+		Year of experience : <input
+			name="exp_value" /> <br /><br />
+			
+			 <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+  <small>Format: 123-456-7890</small><br><br>
+  
+			 second Phone Number: <input type="tel" /><br /> short
+		cut Number: <input name="short_value" /> <font color="green"><input
+			type="submit" /></font><br /> <input type="reset" /><br />
+			
+			<a href="index.html">click me to get back to main page </a><br/>
+	</form>
+
+
+
+</body>
+</html>
